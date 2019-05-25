@@ -1,5 +1,6 @@
 # Semaphore demo CI pipeline using Rust
 
+
 This is an example program and CI pipeline showing how to run a Rust project on Semaphore 2.0.
 
 The program is a simple hello-world HTTP server implemented with the Hyper asynchronous framework.
