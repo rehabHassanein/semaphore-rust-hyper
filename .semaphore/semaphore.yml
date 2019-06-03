@@ -57,6 +57,7 @@ blocks:
           - cache restore target-${SEMAPHORE_GIT_BRANCH}-${LOCK_CHECKSUM}
 
           # Build the project and run the tests.
+          - cargo build
           - cargo test --verbose --all
 
           # Put the main build and the /usr/local/cargo directory to the cache.
